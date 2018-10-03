@@ -1,0 +1,11 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    font-family: 'Helvetica neue', sans-serif;
+}
+.active {
+    color: green;
+    font-weight: bold;
+    font-size: 1.5rem;
+}

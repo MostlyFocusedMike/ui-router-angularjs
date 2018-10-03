@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html ng-app="app" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AngularJS Basic</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="./dist/bundle.js"></script>
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- GH pages expects it to be in the dist folder apparently?? -->
+</head>
+<body>
+    <h1>AngularJS Basic Setup with Webpack</h1>
+    <a ui-sref="hello" ui-sref-active="active">Hello</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+    <a ui-sref="contact" ui-sref-active="active">Contact</a>
+    <ui-view></ui-view>
+</body>
+</html>
