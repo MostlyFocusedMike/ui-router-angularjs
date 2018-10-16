@@ -11,7 +11,8 @@ app.controller('hello', function() {
   }
 })
 
-app.config(['$stateProvider', function($stateProvider) {
+app.config(['$stateProvider', '$locationProvider', function($stateProvider, $locationProvider) {
+  $locationProvider.html5Mode(true);
   let helloState = {
     name: 'hello',
     url: '/hello',
